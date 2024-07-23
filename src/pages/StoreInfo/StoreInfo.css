@@ -1,0 +1,1170 @@
+.div56,
+.navbg {
+  position: relative;
+}
+.navbg {
+  width: 15.625rem;
+  height: 178.5rem;
+  background-color: #f2f5f9;
+  display: none;
+}
+.div56 {
+  letter-spacing: 0.03em;
+  font-weight: 600;
+  z-index: 1;
+}
+.navStoreMain{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  align-self: stretch;
+  height: 2.5rem;
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "Wanted Sans Variable";
+  font-size: 1rem;
+  min-width: 7.875rem;
+  padding: 0.688rem 1.25rem 0.625rem;
+  background-color: #3790ff;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
+.nav,
+.navgroup,
+.navStoreMain {
+  display: flex;
+  justify-content: flex-start;
+}
+.navStoreMain:hover{
+  cursor: pointer;
+  background-color: #2b75cf;
+}
+.nav,
+.navgroup {
+  flex-direction: column;
+}
+.navgroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 0.563rem 0;
+  z-index: 1;
+}
+.nav {
+  width: 15.63rem;
+  background-color: #f2f5f9;
+  align-items: center;
+  padding: 1.88rem 1.25rem 10rem;
+  box-sizing: border-box;
+  gap: 1.88rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #222;
+  font-family: "Wanted Sans Variable";
+  align-self: stretch;
+}
+.storeinfobggrey {
+  height: 178.5rem;
+  width: 74.375rem;
+  position: relative;
+  background-color: #f7f7fa;
+  display: none;
+  max-width: 100%;
+}
+.storeinfobgwhite,
+.storeinfotitlebox {
+  position: relative;
+  background-color: #fff;
+  display: none;
+}
+.storeinfobgwhite {
+  align-self: stretch;
+  height: 174.75rem;
+}
+.storeinfotitlebox {
+  height: 4.063rem;
+  width: 70.625rem;
+  border-bottom: 3px solid #f3f5f7;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.input {
+  width: 5rem;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  font-size: 1.25rem;
+  background-color: transparent;
+  height: 1.5rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.storeinfotitle,
+.storephotobox {
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.storeinfotitle {
+  align-self: stretch;
+  border-top: 1px solid #f3f5f7;
+  border-right: 1px solid #f3f5f7;
+  border-bottom: 3px solid #f3f5f7;
+  border-left: 1px solid #f3f5f7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.25rem 2.5rem 1.313rem;
+  z-index: 11;
+}
+.storephotobox {
+  width: 70.625rem;
+  height: 14.938rem;
+  position: relative;
+  border-bottom: 1px solid #f3f5f7;
+  display: none;
+}
+.div {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.storephotochoosebutton-icon {
+  width: 9.375rem;
+  height: 9.375rem;
+  position: relative;
+  z-index: 1;
+  margin-right: 2rem;
+}
+.storephotochoosebutton-icon:hover{
+  cursor: pointer;
+}
+.storephotochoosebutton-input,
+.storephotochoosebutton-input3758{
+  vertical-align: top;
+  font-family: "Arial";
+}
+
+.storenamebox,
+.storephoto {
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.storephoto {
+  align-self: stretch;
+  border: 1px solid #f3f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.875rem 2.5rem;
+  gap: 1.25rem 0;
+  z-index: 10;
+}
+.storenamebox {
+  width: 70.625rem;
+  height: 9.25rem;
+  position: relative;
+  border-bottom: 1px solid #f3f5f7;
+  display: none;
+}
+.div1 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.input1,
+.storenameinputbox {
+  position: relative;
+  max-width: 100%;
+}
+.storenameinputbox {
+  height: 3.188rem;
+  width: 57.375rem;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.input1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: "Wanted Sans Variable";
+  font-size: 1rem;
+  background-color: transparent;
+  height: 1.188rem;
+  flex: 1;
+  letter-spacing: 0.02em;
+  color: #454a52;
+  text-align: left;
+  display: inline-block;
+  min-width: 15.625rem;
+  z-index: 1;
+}
+.storenameinput {
+  width: 57.375rem;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.938rem 0.875rem;
+  z-index: 1;
+}
+.storeintroducebox,
+.storename,
+.storenameinput {
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.storename {
+  align-self: stretch;
+  border: 1px solid #f3f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.875rem 2.5rem;
+  gap: 1.25rem 0;
+  z-index: 9;
+}
+.storeintroducebox {
+  width: 70.625rem;
+  height: 14.938rem;
+  position: relative;
+  border-bottom: 1px solid #f3f5f7;
+  display: none;
+}
+.div2,
+.storeintroduceinput {
+  font-family: "Wanted Sans Variable";
+  font-size: 1rem;
+  z-index: 1;
+}
+.div2 {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: #000;
+  text-align: left;
+}
+.storeintroduceinput {
+  height: 8rem;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.938rem 0.938rem 0.938rem 0;
+  color: #454a52;
+  resize: none;
+}
+.input-counter{
+  color: #757575;
+}
+.storeadressbox,
+.storeintroduce,
+.storeintroduceinput {
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.input-counter-box{
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative;
+  border: 1px solid #d9d9d9;
+  height: 8.875rem;
+  width: 57.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.938rem 0.875rem;
+  z-index: 1;
+}
+.storeintroduce {
+  align-self: stretch;
+  border: 1px solid #f3f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.875rem 2.5rem;
+  gap: 1.25rem 0;
+  z-index: 8;
+}
+.storeadressbox {
+  width: 70.625rem;
+  height: 17.25rem;
+  position: relative;
+  border-bottom: 1px solid #f3f5f7;
+  display: none;
+}
+.div3 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.wed-start-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0.313rem;
+}
+.storepostnumberbox {
+  height: 3.188rem;
+  width: 5.375rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.fri-start-frame {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-family: "Wanted Sans Variable";
+  color: #454a52;
+  text-align: left;
+  z-index: 1;
+}
+.storepostnumber,
+.storepostnumberfindbox {
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+}
+.storepostnumber {
+  width: 5.375rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.938rem 1.063rem 0.938rem 0.75rem;
+  z-index: 1;
+}
+.storepostnumberfindbox {
+  height: 3.188rem;
+  width: 7.563rem;
+  position: relative;
+  background-color: #474e5c;
+  display: none;
+}
+.div4 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.storepostnumberfindbutton {
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  padding: 0.938rem 0.625rem 0.938rem 0.875rem;
+  background-color: #474e5c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.storepostnumberfindbutton:hover {
+  background-color: #6e7582;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+}
+.thu-start-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.938rem;
+}
+.input2,
+.storeadresstopbox {
+  position: relative;
+  max-width: 100%;
+}
+.storeadresstopbox {
+  height: 3.188rem;
+  width: 57.375rem;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.input2 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: "Wanted Sans Variable";
+  font-size: 1rem;
+  background-color: transparent;
+  height: 1.188rem;
+  flex: 1;
+  letter-spacing: 0.02em;
+  color: #454a52;
+  text-align: left;
+  display: inline-block;
+  min-width: 15.625rem;
+  z-index: 1;
+}
+.storeadresstop {
+  width: 57.375rem;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.938rem 0.875rem;
+  max-width: 100%;
+  z-index: 1;
+}
+.input3,
+.storeadressinputbox {
+  position: relative;
+  max-width: 100%;
+}
+.storeadressinputbox {
+  height: 3.188rem;
+  width: 57.375rem;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.input3 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: "Wanted Sans Variable";
+  font-size: 1rem;
+  background-color: transparent;
+  height: 1.188rem;
+  flex: 1;
+  letter-spacing: 0.02em;
+  color: #454a52;
+  text-align: left;
+  display: inline-block;
+  min-width: 15.625rem;
+  z-index: 1;
+}
+.storeadressinput {
+  width: 57.375rem;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.938rem 0.875rem;
+  z-index: 1;
+}
+.storeadress,
+.storeadressinput,
+.storecallnumberbox {
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.storeadress {
+  align-self: stretch;
+  border: 1px solid #f3f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.875rem 2.5rem;
+  gap: 0.938rem 0;
+  z-index: 7;
+}
+.storecallnumberbox {
+  width: 70.625rem;
+  height: 9.25rem;
+  position: relative;
+  border-bottom: 1px solid #f3f5f7;
+  display: none;
+}
+.div5 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.storecallnumberinputbox {
+  height: 3.188rem;
+  width: 57.375rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.input4 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: "Wanted Sans Variable";
+  font-size: 1rem;
+  background-color: transparent;
+  height: 1.188rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: #454a52;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.storecallnumberinput {
+  width: 57.375rem;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.938rem;
+  z-index: 1;
+}
+.storecallnumber,
+.storecallnumberinput,
+.storetimedaymenubox {
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.storecallnumber {
+  align-self: stretch;
+  border: 1px solid #f3f5f7;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.875rem 2.5rem;
+  gap: 1.25rem 0;
+  z-index: 6;
+}
+.storetimedaymenubox {
+  height: 5.25rem;
+  width: 70.625rem;
+  position: relative;
+  border-bottom: 3px solid #f3f5f7;
+  display: none;
+}
+.input5 {
+  width: 7.313rem;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  font-size: 1.25rem;
+  background-color: transparent;
+  height: 1.5rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.storetimedaymenu{
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.storetimedaymenu {
+  align-self: stretch;
+  border-top: 1px solid #f3f5f7;
+  border-right: 1px solid #f3f5f7;
+  border-bottom: 3px solid #f3f5f7;
+  border-left: 1px solid #f3f5f7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.875rem 2.5rem;
+  max-width: 100%;
+  z-index: 5;
+}
+
+
+.closeddaybox{
+  width: 70.625rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.closeddaybox {
+  height: 7.813rem;
+  position: relative;
+  border-bottom: 1px solid #f3f5f7;
+  display: none;
+}
+.div42,
+.div43 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.div43 {
+  font-weight: 500;
+  color: #474e5c;
+}
+.closeddaycheckbutton {
+  border-color: #ffa81e;
+  accent-color: #ffa81e;
+  cursor: pointer;
+  margin: 0;
+  height: 1.625rem;
+  width: 1.625rem;
+  position: relative;
+  z-index: 1;
+}
+.checkbuttons-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.625rem;
+}
+.checkboxtitleweekday0,
+.checkboxtitleweekday1,
+.checkboxtitleweekday2,
+.checkboxtitleweekday3,
+.checkboxtitleweekday4,
+.checkboxtitleweekday5,
+.checkboxtitleweekday6 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #474e5c;
+  text-align: left;
+  z-index: 1;
+}
+.closeddaycheckbutton0::before,
+.closeddaycheckbutton1::before,
+.closeddaycheckbutton2::before,
+.closeddaycheckbutton3::before,
+.closeddaycheckbutton4::before,
+.closeddaycheckbutton5::before,
+.closeddaycheckbutton6::before {
+  content: ""; /* 가상 요소에 내용을 추가합니다. */
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleX(-1) rotate(45deg); /* 45도 회전하여 브이(V) 모양을 만듭니다. */
+  width: 0.5rem; /* 체크 표시의 너비 */
+  height: 0.25rem; /* 체크 표시의 높이 */
+  border-bottom: 1px solid #8B8B8B; /* 브이(V) 모양의 선 스타일 */
+  border-right: 1px solid #8B8B8B; /* 브이(V) 모양의 선 스타일 */
+}
+.closeddaycheckbutton0,
+.closeddaycheckbutton1,
+.closeddaycheckbutton2,
+.closeddaycheckbutton3,
+.closeddaycheckbutton4,
+.closeddaycheckbutton5,
+.closeddaycheckbutton6 {
+  cursor: pointer;
+  margin: 0;
+  height: 1.4rem;
+  width: 1.4rem;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%; /* 동그라미 모양으로 만들기 위해 반지름을 50%로 지정합니다. */
+  border: 1px solid #8B8B8B; /* 테두리 스타일 */
+  appearance: none; /* 기본적으로 제공되는 스타일을 없앱니다. */
+  -webkit-appearance: none; /* Safari 및 일부 브라우저를 위한 프리픽스 */
+  -moz-appearance: none; /* Firefox를 위한 프리픽스 */
+}
+.closeddaycheckbutton0:checked::before,
+.closeddaycheckbutton1:checked::before,
+.closeddaycheckbutton2:checked::before,
+.closeddaycheckbutton3:checked::before,
+.closeddaycheckbutton4:checked::before,
+.closeddaycheckbutton5:checked::before,
+.closeddaycheckbutton6:checked::before {
+  content: ""; /* 가상 요소에 내용을 추가합니다. */
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleX(-1) rotate(45deg); /* 45도 회전하여 브이(V) 모양을 만듭니다. */
+  width: 0.5rem; /* 체크 표시의 너비 */
+  height: 0.25rem; /* 체크 표시의 높이 */
+  border-bottom: 2px solid white; /* 브이(V) 모양의 선 스타일 */
+  border-right: 2px solid white; /* 브이(V) 모양의 선 스타일 */
+}
+.closeddaycheckbutton0:checked,
+.closeddaycheckbutton1:checked,
+.closeddaycheckbutton2:checked,
+.closeddaycheckbutton3:checked,
+.closeddaycheckbutton4:checked,
+.closeddaycheckbutton5:checked,
+.closeddaycheckbutton6:checked {
+  background-color: #FFA81E; /* 체크됐을 때의 배경색 */
+  border: 1px solid #FFA81E;
+}
+.checkbuttons-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.625rem;
+}
+.div45 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #474e5c;
+  text-align: left;
+  z-index: 1;
+}
+
+.checkbuttons-frame2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.625rem;
+}
+.div46 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #474e5c;
+  text-align: left;
+  z-index: 1;
+}
+.checkbuttons-frame3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.625rem;
+}
+.div47 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #474e5c;
+  text-align: left;
+  z-index: 1;
+}
+.checkbuttons-frame4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.625rem;
+}
+.div48 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #474e5c;
+  text-align: left;
+  z-index: 1;
+}
+.checkbuttons-frame5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.625rem;
+}
+.div49 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #474e5c;
+  text-align: left;
+  z-index: 1;
+}
+.closeddaycheckbutton-icon {
+  height: 1.625rem;
+  width: 1.625rem;
+  position: relative;
+  z-index: 1;
+}
+.checkbox-group1,
+.checkbuttons-frame6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.625rem;
+}
+.checkbox-group1 {
+  width: 70%;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 100%;
+}
+.closeddayb,
+.storememutitle {
+  background-color: #fff;
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.closeddayb {
+  border: 1px solid #f3f5f7;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.875rem 2.5rem;
+  gap: 1.25rem 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.storememutitle {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  height: 4.063rem;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.25rem 2.438rem 1.313rem;
+  font-family: "Wanted Sans Variable";
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #000;
+  min-width: 15.625rem;
+  z-index: 2;
+}
+
+.storememutopbarbox {
+  position: relative;
+  background-color: #fafafa;
+  display: none;
+}
+.storememutopbarbox {
+  align-self: stretch;
+  width: 70.625rem;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.div50 {
+  align-self: stretch;
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-family: "Wanted Sans Variable";
+  color: #757575;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.storememuimg,
+.storememunamebox {
+  height: 3.125rem;
+  background-color: #fafafa;
+}
+.storememuimg {
+  border: 0;
+  width: 10rem;
+  /* padding: 1.125rem 3.3rem 1.125rem 3.3rem; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.storememunamebox {
+  width: 12.5rem;
+  position: relative;
+  display: none;
+}
+.div51 {
+  align-self: stretch;
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-family: "Wanted Sans Variable";
+  color: #757575;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.storememuname,
+.storememupricebox {
+  height: 3.125rem;
+  background-color: #fafafa;
+}
+.storememuname {
+  border: 0;
+  /* padding: 1.063rem 8rem 1.188rem 8rem; */
+  width: 19rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.storememupricebox {
+  width: 11.25rem;
+  position: relative;
+  display: none;
+}
+.div52 {
+  align-self: stretch;
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-family: "Wanted Sans Variable";
+  color: #757575;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.storememuexplainbox,
+.storememuprice {
+  height: 3.125rem;
+  background-color: #fafafa;
+}
+.storememuprice {
+  border: 0;
+  /* padding: 1.063rem 3rem 1.188rem 3rem; */
+  width: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.storememuexplainbox {
+  width: 25.625rem;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.div53 {
+  align-self: stretch;
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-family: "Wanted Sans Variable";
+  color: #757575;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.storememuexplain,
+.storememutopbar {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.storememuexplain {
+  border: 0;
+  /* padding: 1.063rem 8.5rem 1.188rem 8.5rem; */
+  background-color: #fafafa;
+  /* height: 3.125rem; */
+  width: 22rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: calc(100% - 560px);
+  z-index: 1;
+}
+.store-menu,
+.storememutopbar {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.storememutopbar {
+  background-color: #fafafa;
+  border: 1px solid #f1f1f1;
+  /* overflow-x: auto; */
+  gap: 0 4rem;
+  padding: 0 1.25rem 0 1.25rem;
+  z-index: 2;
+}
+.store-menu {
+  padding: 0 0 1.875rem;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.storememuaddbutton-icon {
+  height: 3.75rem;
+  width: 3.75rem;
+  position: relative;
+  z-index: 2;
+}
+.storememuaddbutton-icon:hover{
+  cursor: pointer;
+  opacity: 80%;
+}
+.add-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 0.75rem;
+}
+.requestbox {
+  height: 3.75rem;
+  width: 31.25rem;
+  position: relative;
+  border-radius: 10px;
+  background-color: #b6c0cc;
+  display: none;
+  max-width: 100%;
+}
+.div54 {
+  position: relative;
+  font-size: 1.375rem;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.requestbutton {
+  cursor: pointer;
+  border: 0;
+  padding: 1.063rem 1.25rem 1.063rem 1.313rem;
+  background-color: #b6c0cc;
+  align-self: stretch;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+  z-index: 2;
+}
+.add-button-frame,
+.add-button-frame1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.add-button-frame1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.875rem 0;
+}
+.add-button-frame {
+  width: 33.625rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 2.375rem 0 0;
+  box-sizing: border-box;
+}
+.storeinfobody,
+.sun-start-time {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sun-start-time {
+  margin: 0;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 2.5rem;
+  max-width: 100%;
+  z-index: 1;
+}
+.storeinfobody {
+  background-color: #f7f7fa;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.875rem;
+  max-width: calc(100% - 250px);
+}
+.storeinfo,
+.wed-start-hour {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wed-start-hour {
+  align-self: stretch;
+  flex-direction: row;
+  max-width: 100%;
+}
+.storeinfo {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  letter-spacing: normal;
+}

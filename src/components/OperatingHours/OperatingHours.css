@@ -1,0 +1,939 @@
+.closeddaybox,
+.storetime {
+  width: 70.625rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.storetime {
+  border: 1px solid #f3f5f7;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.875rem 2.5rem;
+  gap: 1.875rem 0;
+  z-index: 4;
+}
+
+.storetimedaymenu,
+.storetimegroupbox {
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.storetimegroupbox {
+    width: 70.625rem;
+    height: 14.813rem;
+    position: relative;
+    border-bottom: 1px solid #f3f5f7;
+    display: none;
+}
+
+.div6,
+.div7 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  font-family: "Wanted Sans Variable";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.div7 {
+  font-weight: 500;
+  color: #474e5c;
+}
+.monstarthourbox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.fri-start-hour,
+.mon-last-time,
+.time-segment,
+.div8,
+.wed-end-hour,
+.tue-start-time1,
+.fri-start-hour1,
+.wed-start-hour1,
+.div11,
+.div13,
+.div15,
+.div17,
+.thu-start-hour,
+.text1,
+.div19,
+.div21,
+.div23,
+.fri-start-time1,
+.fri-last-time,
+.fri-last-time1,
+.div27,
+.div29,
+.div31,
+.div33,
+.div35,
+.div37,
+.div39,
+.div41 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-family: "Wanted Sans Variable";
+  text-align: center;
+  z-index: 1;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0 0 0 0;
+  width: 1.5rem;
+  color: #454a52;
+}
+.monstarthour {
+  width: 2.125rem;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 3;
+}
+.sun3650,
+.weekday-label,
+.thu-end-hour,
+.fri-last-hour,
+.div12,
+.div16,
+.checkbox-group,
+.div20,
+.div24,
+.div25,
+.div28,
+.div32,
+.div36,
+.div40 {
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #c4c4c4;
+  text-align: center;
+  z-index: 2;
+  margin: 0 0.3rem 0 0.3rem;
+}
+.monstarttimebox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.monstarttime {
+  align-self: stretch;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 1;
+}
+.mon-start-time-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0 0.75rem 0 0;
+}
+.tue-start-time,
+.tue-last-time,
+.div14,
+.text2,
+.fri-last-hour1,
+.div30,
+.div38 {
+  position: relative;
+  font-size: 0.938rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #c4c4c4;
+  text-align: left;
+  z-index: 1;
+  /* margin: 0 0.3rem 0 0.3rem; */
+}
+.tue678 {
+  /* width: 5.625rem; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.monlasthourbox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.monlasthour {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.313rem 0.25rem 0.313rem 0.313rem;
+  z-index: 3;
+}
+.monlasttimebox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.monlasttime,
+.wed-start-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.monlasttime {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  justify-content: center;
+  padding: 0.313rem 0.25rem 0.313rem 0.313rem;
+  z-index: 1;
+}
+.wed-start-time {
+  /* width: 5.938rem; */
+  justify-content: flex-start;
+  /* margin: 0 0 0 0.75rem; */
+  box-sizing: border-box;
+}
+.div9 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #474e5c;
+  text-align: left;
+  z-index: 1;
+}
+.tuestarthourbox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.tuestarthour {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 3;
+}
+.tuestarttimebox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.mon-end-hour,
+.tuestarttime {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tuestarttime {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 1;
+}
+.mon-end-hour {
+  justify-content: flex-start;
+}
+.tuelasthourbox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.tuelasthour {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 3;
+}
+.tuelasttimebox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.sun-start-info2,
+.sun-start-info,
+.fri-start-hour11,
+.fri-start-hour2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 3.85rem 0 0;
+    box-sizing: border-box;
+    gap: 0 0.703rem;
+}
+.sun-start-info1,
+.fri-start-hour3,
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 0 5rem 0 0; */
+    box-sizing: border-box;
+    gap: 0 0.703rem;
+}
+.mon-start-hour-frame,
+.tuelasttime {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tuelasttime {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 1;
+}
+.mon-start-hour-frame {
+  justify-content: flex-start;
+}
+
+.div10 {
+  position: relative;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-family: "Wanted Sans Variable";
+  color: #474e5c;
+  text-align: left;
+  z-index: 1;
+}
+.wedstarthourbox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+
+.wedstarthour {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 3;
+}
+.wedstarttimebox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.wedstarthour-parent,
+.wedstarttime {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.wedstarttime {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 1;
+}
+.wedstarthour-parent {
+  justify-content: flex-start;
+}
+.wedlasthourbox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.wedlasthour {
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+  z-index: 3;
+}
+
+.wedlasttimebox {
+  height: 1.75rem;
+  width: 2.125rem;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: none;
+}
+.wedlasthour-parent,
+.wedlasttime {
+flex: 1;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.wedlasttime {
+background-color: #fff;
+border: 1px solid #d9d9d9;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.wedlasthour-parent {
+justify-content: flex-start;
+}
+.sat-start-frame,
+.sun-start-frame {
+display: flex;
+justify-content: flex-start;
+}
+.sun-start-frame {
+align-self: stretch;
+flex-direction: row;
+align-items: center;
+padding: 0 0.063rem 0 0;
+/* gap: 0 0.703rem; */
+}
+.sat-start-frame {
+/* width: 46.938rem; */
+flex-direction: column;
+align-items: flex-start;
+gap: 1.25rem 0;
+}
+.div18 {
+position: relative;
+font-size: 1rem;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-family: "Wanted Sans Variable";
+color: #474e5c;
+text-align: left;
+z-index: 1;
+}
+.thustarthourbox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.thustarthour {
+width: 2.125rem;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 3;
+}
+.thustarttimebox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.thustarttime {
+align-self: stretch;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.text999 {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+margin: 0 0.75rem 0 0;
+}
+.sat-start-time {
+/* width: 5.625rem; */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+}
+.thulasthourbox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.thulasthour {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 3;
+}
+.thulasttimebox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.text3,
+.thulasttime {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.thulasttime {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.text3 {
+/* width: 5.938rem; */
+justify-content: flex-start;
+/* padding: 0 1.438rem 0 0; */
+box-sizing: border-box;
+}
+.div22 {
+position: relative;
+font-size: 1rem;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-family: "Wanted Sans Variable";
+color: #474e5c;
+text-align: left;
+z-index: 1;
+}
+.fristarthourbox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.fristarthour {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 3;
+}
+.fristarttimebox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.fri-start-time,
+.fristarttime {
+flex: 1;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.fristarttime {
+background-color: #fff;
+border: 1px solid #d9d9d9;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.fri-start-time {
+justify-content: flex-start;
+}
+.frilasthourbox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.frilasthour {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 3;
+}
+
+.frilasttimebox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.fri-last-hour2,
+.frilasttime {
+flex: 1;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.frilasttime {
+background-color: #fff;
+border: 1px solid #d9d9d9;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.fri-last-hour2 {
+justify-content: flex-start;
+}
+.div26 {
+position: relative;
+font-size: 1rem;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-family: "Wanted Sans Variable";
+color: #474e5c;
+text-align: left;
+z-index: 1;
+}
+.satstarthourbox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.satstarthour {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 3;
+}
+.satstarttimebox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.satstarthour-parent,
+.satstarttime {
+flex: 1;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.satstarttime {
+background-color: #fff;
+border: 1px solid #d9d9d9;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.satstarthour-parent {
+justify-content: flex-start;
+}
+.satlasthourbox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+
+.satlasthour {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 3;
+}
+.satlasttimebox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.satlasttime {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.satlasthour-parent {
+flex: 1;
+}
+.fri-start-hour-frame,
+.satlasthour-parent {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+}
+.fri-start-hour-frame {
+align-self: stretch;
+padding: 0 0.063rem 0 0;
+/* gap: 0 0.703rem; */
+}
+.div34 {
+position: relative;
+font-size: 1rem;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-family: "Wanted Sans Variable";
+color: #474e5c;
+text-align: left;
+z-index: 1;
+}
+.sunstarthourbox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.sunstarthour {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.sunstarttimebox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.sunstarthour-parent,
+.sunstarttime {
+flex: 1;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.sunstarttime {
+background-color: #fff;
+border: 1px solid #d9d9d9;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.sunstarthour-parent {
+justify-content: flex-start;
+}
+.sunlasthourbox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.sunlasthour {
+flex: 1;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.sunlasttimebox {
+height: 1.75rem;
+width: 2.125rem;
+position: relative;
+background-color: #fff;
+border: 1px solid #d9d9d9;
+box-sizing: border-box;
+display: none;
+}
+.sunlasttime {
+background-color: #fff;
+border: 1px solid #d9d9d9;
+display: flex;
+justify-content: center;
+padding: 0.313rem 0.313rem 0.313rem 0.25rem;
+z-index: 1;
+}
+.sunlasthour-parent,
+.sunlasttime {
+flex: 1;
+flex-direction: row;
+align-items: center;
+}
+.sunlasthour-parent,
+.weekdays-frame {
+display: flex;
+justify-content: flex-start;
+}
+.weekdays-frame {
+/* width: 46.938rem; */
+flex-direction: column;
+align-items: flex-start;
+gap: 1.875rem 0;
+}
+.closeddaybox,
+.storetime {
+width: 100%;
+background-color: #fff;
+box-sizing: border-box;
+max-width: 100%;
+}
+.storetime {
+border: 1px solid #f3f5f7;
+overflow-x: auto;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 1.875rem 2.5rem;
+gap: 1.875rem 0;
+z-index: 4;
+}
